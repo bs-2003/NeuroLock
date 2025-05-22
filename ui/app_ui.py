@@ -9,14 +9,14 @@ from src.detector import start_monitoring
 class MalwareDetectorUI(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("NeuroShield - AI Malware Detector")
+        self.setWindowTitle("NeuroLock - AI Malware Detector")
         self.setGeometry(100, 100, 650, 350)
         self.setStyleSheet("background-color: #0d1117; color: #ffffff;")
         self.setWindowIcon(QIcon("assets/icon.png"))  # Optional icon
 
         layout = QVBoxLayout()
 
-        self.label = QLabel("🔐 NeuroShield")
+        self.label = QLabel("🔐 NeuroLock")
         self.label.setAlignment(Qt.AlignCenter)
         self.label.setFont(QFont("Consolas", 22, QFont.Bold))
         self.label.setStyleSheet("color: #58a6ff;")
